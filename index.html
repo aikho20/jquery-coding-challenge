@@ -1,28 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
-  <title>Carousel</title>
-</head>
-<body>
-  <section id="carousel">
-    <img src="img/arrow_left.svg" alt="Left Carousel Arrow" class="arrow" id="left-arrow">
-    <img src="img/arrow_right.svg" alt="Right Carousel Arrow" class="arrow" id="right-arrow">
-    <div class="slide-image" id="slide1">
-    </div>
-    <div class="slide-image" id="slide2">
-    </div>
-    <div class="slide-image" id="slide3">
-    </div>
-    <div class="slide-image" id="slide4">
-    </div>
-    <div class="slide-image" id="slide5">
-    </div>
-  </section>
+<!DOCTYPE html/>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="./index.js"></script>
+    </head>
+    <body>
+    <div class="product_container">
+        <div class="product-carousel__container">
+            
+            <section id="carousel">
+               
+                <img src="./img/arrow_left.svg" alt="Left Carousel Arrow" class="arrow" id="left-arrow">
+                <img src="./img/arrow_right.svg" alt="Right Carousel Arrow" class="arrow" id="right-arrow">
+                <div class="slide-image" id="slide1">
+                </div>
+                <div class="slide-image" id="slide2">
+                </div>
+                <div class="slide-image" id="slide3">
+                </div>
+                <i class="fa fa-long-arrow-left"></i>
+                <i class="fa fa-heart"></i>
+              </section>
+            
 
-</body>
+        </div>
+        <div class="product-details__container">
+            <h3 class="title">Nike Air Force</h5>
+            <h3 class="price">$199.00</h5>
+            <span class="fa fa-star checked star-checked"> 4.5 (15 Review)</span>
+                <h4>Details</h4>
+                <p>Nike Dri-fit is a polyester fabric designed to help you keep try so you can more comfortably at work harder, longer. </p>
+                <h4>Color</h4>
+                <div class="color__container">
+                    <div class="black"></div>
+                    <div class="orange"></div>
+                    <div class="blue"></div>
+                    <div class="red"></div>
+                </div>
+                <h4>Size</h4>
+                <select class="select">
+                    <option value="CHOOSE SIZE">CHOOSE SIZE</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                  </select>
+
+                <div class="button__container"><button class="button">Buy Now</button></div> 
+            </div>
+            
+    </div>
+    </body>
 </html>
